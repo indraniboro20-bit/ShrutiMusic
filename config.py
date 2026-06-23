@@ -10,7 +10,7 @@ API_HASH = os.getenv("API_HASH")
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 OWNER_ID = int(os.getenv("OWNER_ID", None))
 OWNER_USERNAME = os.getenv("OWNER_USERNAME", "WTF_WhyMeeh")
-BOT_USERNAME = os.getenv("BOT_USERNAME", "kitkatxmusicbot")
+BOT_USERNAME = os.getenv("BOT_USERNAME", "Ankita_xmusicbot")
 
 MONGO_DB_URI = os.getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(os.getenv("LOG_GROUP_ID", None))
@@ -46,8 +46,8 @@ STRING5 = os.getenv("STRING_SESSION5", None)
 
 AUTO_LEAVING_ASSISTANT = bool(os.getenv("AUTO_LEAVING_ASSISTANT", False))
 
-START_IMG_URL = os.getenv("START_IMG_URL", "https://postimg.cc/3WpZTNBv")
-PING_IMG_URL = "https://postimg.cc/3WpZTNBv"
+START_IMG_URL = os.getenv("START_IMG_URL", "https://ibb.co/XfWpp15g")
+PING_IMG_URL = "https://ibb.co/XfWpp15g"
 PLAYLIST_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
 STATS_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
 TELEGRAM_AUDIO_URL = "https://files.catbox.moe/eehxb4.jpg"
